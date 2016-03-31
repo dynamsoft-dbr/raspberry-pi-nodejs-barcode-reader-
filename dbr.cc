@@ -76,7 +76,7 @@ void DecodeFile(const FunctionCallbackInfo<Value>& args) {
 	int ret = DBR_DecodeFile(pFileName, &ro, &pResults);
 	printf("DBR_DecodeFile ret: %d\n", ret);
 
-	if (ret == DBR_OK){
+	{
 		int count = pResults->iBarcodeCount;
 		pBarcodeResult* ppBarcodes = pResults->ppBarcodes;
 		pBarcodeResult tmp = NULL;
