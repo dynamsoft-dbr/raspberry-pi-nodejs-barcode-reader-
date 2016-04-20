@@ -49,3 +49,6 @@ The sample demonstrates how to use [Dynamsoft Barcode Reader SDK](http://www.dyn
 7. Visit **http://localhost:2016/index.htm**
 
     ![Raspberry Pi Node.js Barcode Reader](http://www.codepool.biz/wp-content/uploads/2016/03/rpi_node_barcode-1-1024x576.png)
+    
+## Blog
+[How to Build Node.js Barcode Reader on Raspberry Pi](http://www.codepool.biz/raspberry-pi-nodejs-barcode-reader.html)
