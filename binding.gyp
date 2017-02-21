@@ -9,10 +9,10 @@
               'LINUX_DBR',
             ],
             'include_dirs': [
-                "/home/pi/Desktop/dbr/include"
+                "/home/pi/dbr-V4.2.0-linux-armv7l/include"
             ],
             'libraries': [
-                "-lDynamsoftBarcodeReader", "-L/home/pi/Desktop/dbr/lib"
+                "-lDynamsoftBarcodeReader", "-L/home/pi/dbr-V4.2.0-linux-armv7l/lib"
             ]
           }]
       ]
