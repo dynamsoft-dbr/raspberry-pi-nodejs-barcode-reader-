@@ -9,6 +9,24 @@
 
 using namespace v8;
 
+typedef unsigned long DWORD;
+typedef long LONG;
+typedef unsigned short WORD;
+ 
+typedef struct tagBITMAPINFOHEADER {
+  DWORD biSize;
+  LONG biWidth;
+  LONG biHeight;
+  WORD biPlanes;
+  WORD biBitCount;
+  DWORD biCompression;
+  DWORD biSizeImage;
+  LONG biXPelsPerMeter;
+  LONG biYPelsPerMeter;
+  DWORD biClrUsed;
+  DWORD biClrImportant;
+} BITMAPINFOHEADER;
+
 // Barcode format
 const char * GetFormatStr(__int64 format)
 {
@@ -105,6 +123,17 @@ bool ConvertCameraGrayDataToDIBBuffer(unsigned char* psrc, int size, int width, 
 
 	return true;
 }
+
+
+// //Assign camera related data to:
+// //1.pcamdata---camera gray raw data
+// //2.camsize----camera raw data length
+// //3.width------camera horizontal resolution 
+// //4.height-----camera vertical resolution
+// ConvertCameraGrayDataToDIBBuffer(pcamdata, camsize, width, height, &pdibdata, &dibsize);
+
+// iRet = reader.DecodeBuffer(pdibdata, dibsize);
+// delete []pdibdata, pdibdata=NULL;
 
 /*
  *	uv_work_cb
