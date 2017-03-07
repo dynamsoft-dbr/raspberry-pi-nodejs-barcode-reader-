@@ -67,4 +67,5 @@ The sample demonstrates how to use [Dynamsoft Barcode Reader SDK](http://www.dyn
     ![Node.js barcode scanner with UVC camera](http://www.codepool.biz/wp-content/uploads/2017/02/rpi_camera_barcode_detection.PNG)
 
 ## Blog
-[How to Build Node.js Barcode Reader on Raspberry Pi](http://www.codepool.biz/raspberry-pi-nodejs-barcode-reader.html)
+* [How to Build Node.js Barcode Reader on Raspberry Pi](http://www.codepool.biz/raspberry-pi-nodejs-barcode-reader.html)
+* [Node.js Barcode Scanner with UVC Camera for Raspberry Pi](http://www.codepool.biz/nodejs-barcode-scanner-camera-raspberrypi.html)
