@@ -49,6 +49,7 @@ var rl = readline.createInterface({
 });
 
 rl.question("Please input a barcode image path: ", function(answer) {
+    dbr.initLicense("BE3F70D6536894C4E7758E43934C92A6");
     decodeFileStreamAsync(answer);
     decodeFileAsync(answer);
     rl.close();
