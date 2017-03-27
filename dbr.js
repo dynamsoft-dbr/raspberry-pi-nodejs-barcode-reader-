@@ -49,7 +49,7 @@ var rl = readline.createInterface({
 });
 
 rl.question("Please input a barcode image path: ", function(answer) {
-    dbr.initLicense("BE3F70D6536894C4E7758E43934C92A6");
+    dbr.initLicense("BE3F70D6536894C4E7758E43934C92A6");    // This is trial license. To use full license, contact support@dynamsoft.com
     decodeFileStreamAsync(answer);
     decodeFileAsync(answer);
     rl.close();
