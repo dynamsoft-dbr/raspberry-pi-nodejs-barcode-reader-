@@ -16,6 +16,8 @@ if (cam.configGet().formatName !== "YUYV") {
     process.exit(1);
 }
 
+dbr.initLicense("BE3F70D6536894C4E7758E43934C92A6");    // This is trial license. To use full license, please contact support@dynamsoft.com
+
 cam.start();
 
 function capture() {
