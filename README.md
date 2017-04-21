@@ -20,7 +20,7 @@ The sample demonstrates how to use [Dynamsoft Barcode Reader SDK](http://www.dyn
     ```
 
 ### How to build barcode reader using Dynamsoft Barcode Reader SDK
-1. Contact [support@dynamsoft.com](mailto:support@dynamsoft.com) to get Dynamsoft Barcode Reader SDK for Raspberry Pi.
+1. Download [Dynamsoft Barcode Reader for Raspberry Pi](http://www.dynamsoft.com/Downloads/Dynamic-Barcode-Reader-for-Raspberry-Pi-Download.aspx).
 2. Extract the package and generate a symbolic link:
 
     ```
